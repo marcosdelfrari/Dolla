@@ -1,0 +1,16 @@
+<app-title-section text="TRABALHOS FEITOS" background="#8241FF"></app-title-section>
+
+<div *ngFor="let card of cardData">
+  <app-card-view
+    [title]="card.title"
+    [description]="card.description"
+    [tags]="card.tags"
+    [imageSrc]="card.imageSrc"
+    [imageAlt]="card.imageAlt"
+    [buttonLink]="card.buttonLink"
+    [buttonText]="card.buttonText"
+    [idDoCliente]="card.idDoCliente"
+  ></app-card-view>
+</div>
+
+<app-footer> </app-footer>

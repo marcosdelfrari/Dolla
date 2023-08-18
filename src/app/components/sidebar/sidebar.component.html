@@ -1,0 +1,13 @@
+<div class="sidebar">
+  <div class="container-sidebar">
+    <ul>
+      <li *ngFor="let option of options">
+        <button [routerLink]="option.route" routerLinkActive="active">
+        <a >{{ option.label }}</a></button>
+      </li>
+      <li><button>
+        <a href="https://wa.me/5531991786094" target="_blank">Contato</a></button>
+      </li>
+    </ul>
+  </div>
+</div>

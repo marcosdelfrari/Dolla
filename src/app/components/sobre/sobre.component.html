@@ -1,0 +1,36 @@
+<div class="column-wrapper">
+  <div class="column left">
+    <img src="/assets/imgs/users.png" />
+  </div>
+  <div class="column right">
+    <h2>Quem Somos?</h2>
+    <p *ngIf="!isDesktop">
+      Assim como um mestre no xadrez planeja cada jogada, nossa consultoria
+      estratégica impulsiona seu sucesso em comunicação, tecnologia e gestão.
+      Desenvolvimento de sites, marketing digital, atendimento ao cliente e
+      cursos especializados são nossos movimentos vencedores. Junte-se a nós
+      para transformar metas em realidade. Seja o rei do jogo empresarial com
+      nossa expertise.
+    </p>
+    <p *ngIf="isDesktop">
+      Tal como um mestre do xadrez prevê cada movimento, nossa consultoria é a
+      jogada decisiva para alavancar o seu sucesso. Somos estrategistas de
+      destaque, focados em comunicação, tecnologia e gestão. Da criação de sites
+      ao marketing digital, abrangendo o atendimento ao cliente e cursos
+      especializados, estamos ao seu lado em todas as etapas.
+      <br />
+    </p>
+
+    <p *ngIf="isDesktop">
+      Visualize cada desafio empresarial como um tabuleiro de xadrez repleto de
+      oportunidades estratégicas. Nossa orientação premium é como a peça que
+      leva você ao xeque-mate do sucesso. Junte-se a nós para transformar metas
+      em vitórias palpáveis. Seu plano de sucesso ganha vida aqui. Pronto para
+      jogar e vencer?
+    </p>
+    <app-tag text="Estratégia Digital" background="#e74c3c"></app-tag>
+    <app-tag text="Inovação Tecnológica" background="#00CEBF"></app-tag>
+    <app-tag text="Transformação Digital" background="#FDCA0F"></app-tag>
+    <app-tag text="Experiência Online" background="#8241FF"></app-tag>
+  </div>
+</div>

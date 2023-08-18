@@ -1,0 +1,20 @@
+<div class="section">
+  <div class="two-column-layout">
+    <div class="left-column">
+      <h2>[Título]</h2>
+    </div>
+    <div class="right-column">
+      <h2>[Data]</h2>
+    </div>
+  </div>
+  <div class="card-list">
+    <div *ngFor="let client of clients">
+      <app-card-list
+        [title]="client.title"
+        [tags]="client.tags"
+        [date]="client.date"
+        [link]="client.link"
+      ></app-card-list>
+    </div>
+  </div>
+</div>

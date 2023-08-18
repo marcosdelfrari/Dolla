@@ -1,0 +1,25 @@
+:host {
+  width: 75%;
+  padding: 10px;
+  max-height: calc(100vh - 82px);
+  overflow: auto; /* Adiciona scroll quando necessário */
+}
+
+/* Estilo da barra de rolagem */
+:host::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+/* Estilo do polegar (parte da barra que você arrasta) */
+:host::-webkit-scrollbar-thumb {
+  background-color: #000; /* Cor do polegar */
+  border-radius: 5px; /* Cantos arredondados do polegar */
+}
+
+/* Estilo da pista (parte da barra onde o polegar se move) */
+:host::-webkit-scrollbar-track {
+  background-color: #fff; /* Cor da pista */
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin: 5px;
+}

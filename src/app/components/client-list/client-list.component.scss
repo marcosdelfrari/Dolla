@@ -1,0 +1,25 @@
+.section{
+  border: 1px solid #000;
+  margin-top: 20px;
+}
+.two-column-layout {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.left-column,
+.right-column {
+  flex-basis: calc(50%);
+  padding: 10px;
+
+}
+
+.left-column {
+  background-color: #fff;
+}
+
+.right-column {
+  background-color: #fff;
+  text-align: right;
+}

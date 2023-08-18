@@ -1,0 +1,47 @@
+.banner-container {
+  border: 1px solid #000;
+  background: #00CEBF;
+  min-height: 390px;
+  margin-bottom: 20px;
+
+  @media (max-width: 1080px) {
+    height: calc(100vh - 103px);
+  }
+}
+
+.text-container{
+  font-size: 56px;
+  font-family: Aeonik-Black;
+  padding: 10px;
+  text-transform: uppercase;
+
+  @media (max-width: 1080px) {
+    font-size: 10vw;
+  }
+}
+.typing-text {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.blinking-cursor {
+  animation: blink 0.5s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

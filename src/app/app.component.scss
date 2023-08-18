@@ -1,0 +1,18 @@
+.content-container {
+  display: flex;
+  height: calc(100vh - 82px);
+}
+
+.app-sidebar {
+  width:100%;
+  background-color: #f0f0f0; /* Defina a cor de fundo da barra lateral */
+
+@media (min-width: 1080px) {
+  width: 25%;
+}
+}
+
+.app-content {
+  flex: 1; /* O conteúdo principal ocupa o espaço restante */
+  background-color: #ffffff; /* Defina a cor de fundo do conteúdo principal */
+}

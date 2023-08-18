@@ -1,0 +1,13 @@
+<div [id]="idDoCliente" class="two-column-layout">
+  <div class="left-column">
+    <h2>{{ title }}</h2>
+    <p>{{ description }}</p>
+    <ng-container *ngFor="let tag of tags">
+      <app-tag [text]="tag.text" [background]="tag.background"></app-tag>
+    </ng-container>
+  </div>
+  <div class="right-column">
+    <img [src]="imageSrc" [alt]="imageAlt" />
+    <a [href]="buttonLink"><button>{{ buttonText }}</button></a>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.two-column-layout {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #000;
+}
+
+.left-column,
+.right-column {
+  padding: 10px;
+}
+
+.left-column {
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.right-column {
+  background-color: #fff;
+  text-align: right;
+}
+
+.tag-card {
+  display: flex;
+}
+
+.expertise {
+  display: flex;
+  max-width: 100%;
+}
+
+p {
+  padding: 10px 0;
+}

@@ -1,0 +1,11 @@
+<div class="two-column-layout">
+  <div class="left-column"><a [href]="link">
+    <h2>{{ title }}</h2></a>
+   <div class="expertise"> <div class="tag-card" *ngFor="let tag of tags">
+      <app-tag [text]="tag.text" [background]="tag.background"></app-tag>
+    </div></div>
+  </div>
+  <div class="right-column"><a [href]="link"></a>
+    <h2>{{ date }}</h2>
+  </div>
+</div>
