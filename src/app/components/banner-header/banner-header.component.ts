@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerHeaderComponent implements OnInit {
   phrases: string[] = [
-    'Somos um selo multiskill. Estratégia, planejamento e ux são nossas especialidades.',
-    'Aprendendo Angular com efeitos!',
-    'Desenvolva incríveis interfaces!',
-    'Divirta-se criando projetos!'
+    'Conectamos marcas e pessoas através do poder do marketing.',
+    'Marketing: transformando ideias em impacto tangível.',
+    'Nossas estratégias de marketing contam histórias que ressoam.',
+    'Mensagens cativantes, resultados surpreendentes.'
   ];
   currentPhraseIndex = 0;
   currentText = '';
