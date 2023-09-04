@@ -1,0 +1,68 @@
+.container-art {
+  background-color: #e8fe74;
+}
+
+.title{
+  padding: 30px 20px;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: "Aeonik-Medium";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+h1 {
+  color: #000;
+  font-family: Aeonik-Regular;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43px; /* 125% */
+}
+
+.avatar {
+margin-top: 20px;
+display: inline-block; /* Exibe as divs de avatar em linha */
+margin-right: 10px; /* Espaçamento entre as divs de avatar (opcional) */
+animation: scrollProfile 20s linear infinite; /* Define uma animação de rolagem suave */
+
+  img {
+    border-radius: 60px;
+    width: 270px;
+    height: 405px;
+    object-fit: cover; /* Controla o ajuste da imagem */
+    overflow: hidden; /* Controla o recorte do conteúdo excedente */
+    filter: grayscale(100%);
+  }
+
+}
+
+.profile {
+  width: 100%; /* Define a largura máxima do contêiner visível */
+  overflow-x: auto; /* Habilita a barra de rolagem horizontal invisível */
+  white-space: nowrap; /* Impede que as imagens quebrem para a próxima linha */
+}
+
+@keyframes scrollProfile {
+  0% {
+    transform: translateX(0); /* Começa na posição inicial (sem deslocamento) */
+  }
+  100% {
+    transform: translateX(-100%); /* Move 100% para a esquerda (uma vez) */
+  }
+}
+
+
+/* Oculta o scroll horizontal no Google Chrome */
+.profile::-webkit-scrollbar {
+  height: 12px; /* Altura do scroll horizontal */
+  width: 12px; /* Largura do scroll horizontal */
+}
+
+.profile::-webkit-scrollbar-thumb {
+  background: transparent; /* Cor do botão do scroll (transparente para escondê-lo) */
+}

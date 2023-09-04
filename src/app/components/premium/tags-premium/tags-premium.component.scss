@@ -32,7 +32,7 @@ h1 {
 
 .tags-purple {
   border-radius: 50px;
-  border: 1px solid #CDA5D5;
+  border: 1px solid #cda5d5;
   background: none;
   color: #fff;
   padding: 10px;
@@ -41,7 +41,7 @@ h1 {
 
 .tags-amarelo {
   border-radius: 50px;
-  border: 1px solid #E8FE74;
+  border: 1px solid #e8fe74;
   background: none;
   color: #fff;
   padding: 10px;
@@ -56,9 +56,17 @@ h1 {
   justify-content: center;
 }
 
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: #5f5f5f;
+  padding-top: 10px;
+}
 
 .box-btn {
-
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -68,18 +76,39 @@ h1 {
 }
 
 .botao-gradient {
-	background: linear-gradient(#06050f, #06050f) padding-box, linear-gradient(to right, #E8FE74, #FBE4FF, #CDA5D5) border-box;
-	border-radius: 50em;
-	border: 2px solid transparent;
-	position: relative;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 1em;
+  background: linear-gradient(#06050f, #06050f) padding-box,
+    linear-gradient(to right, #e8fe74, #fbe4ff, #cda5d5) border-box;
+  border-radius: 50em;
+  border: 2px solid transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
   font-family: Aeonik-Regular;
-	text-decoration: none;
-	color: #ffffff;
-	padding: 10px 15px;
-	cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  cursor: pointer;
+}
 
+button {
+  border-radius: 14px;
+  background: #cda5d5;
+  border: none;
+  outline: none;
+  display: flex;
+  height: 59px;
+  padding: 20px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  color: #000;
+  text-align: center;
+  font-family: Aeonik-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
 }
