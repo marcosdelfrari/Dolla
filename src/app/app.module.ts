@@ -28,6 +28,18 @@ import { PreloadingComponent } from './components/preloading/preloading.componen
 import { RocketComponent } from './components/rocket/rocket.component';
 import { SobreComponent } from './components/sobre/sobre.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { PremiumComponent } from './pages/premium/premium.component';
+import { V1Component } from './pages/v1/v1.component';
+import { NavbarPremiumComponent } from './components/premium/navbar-premium/navbar-premium.component';
+import { HeaderAnimationPremiumComponent } from './components/premium/header-animation-premium/header-animation-premium.component';
+import { HeaderPremiumComponent } from './components/premium/header-premium/header-premium.component';
+import { CasesPremiumComponent } from './components/premium/cases-premium/cases-premium.component';
+import { ArtistasPremiumComponent } from './components/premium/artistas-premium/artistas-premium.component';
+import { ServicosPremiumComponent } from './components/premium/servicos-premium/servicos-premium.component';
+import { ContatoPremiumComponent } from './components/premium/contato-premium/contato-premium.component';
+import { FooterPremiumComponent } from './components/premium/footer-premium/footer-premium.component';
+import { MenuPremiumComponent } from './components/premium/menu-premium/menu-premium.component';
+import { TagsPremiumComponent } from './components/premium/tags-premium/tags-premium.component';
 
 
 @NgModule({
@@ -56,6 +68,18 @@ import { LogoComponent } from './components/logo/logo.component';
     RocketComponent,
     SobreComponent,
     LogoComponent,
+    PremiumComponent,
+    V1Component,
+    NavbarPremiumComponent,
+    HeaderAnimationPremiumComponent,
+    HeaderPremiumComponent,
+    CasesPremiumComponent,
+    ArtistasPremiumComponent,
+    ServicosPremiumComponent,
+    ContatoPremiumComponent,
+    FooterPremiumComponent,
+    MenuPremiumComponent,
+    TagsPremiumComponent,
 
   ],
   imports: [

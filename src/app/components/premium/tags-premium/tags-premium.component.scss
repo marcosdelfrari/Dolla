@@ -1,0 +1,85 @@
+h2 {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: "Aeonik-Medium";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Aeonik-Regular;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43px;
+}
+
+.container-all {
+  background-color: #06050f;
+  padding: 20px;
+}
+
+.tags {
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+}
+
+.tags-purple {
+  border-radius: 50px;
+  border: 1px solid #CDA5D5;
+  background: none;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+}
+
+.tags-amarelo {
+  border-radius: 50px;
+  border: 1px solid #E8FE74;
+  background: none;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+}
+
+.container-tag {
+  margin: 20px 0;
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.box-btn {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.botao-gradient {
+	background: linear-gradient(#06050f, #06050f) padding-box, linear-gradient(to right, #E8FE74, #FBE4FF, #CDA5D5) border-box;
+	border-radius: 50em;
+	border: 2px solid transparent;
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+  font-family: Aeonik-Regular;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px 15px;
+	cursor: pointer;
+
+}

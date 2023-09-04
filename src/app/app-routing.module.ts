@@ -5,10 +5,11 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { PortifolioComponent } from './pages/portifolio/portifolio.component';
 import { UxComponent } from './pages/ux/ux.component';
 import { FireDataComponent } from './pages/fire-data/fire-data.component';
+import { PremiumComponent } from './pages/premium/premium.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
-  { path: '', component: HomeComponent },
+  { path: '', component: PremiumComponent },
   { path: 'contato', component: ContactComponent },
   { path: 'portifolio', component: PortifolioComponent },
   { path: 'user-experience', component: UxComponent},

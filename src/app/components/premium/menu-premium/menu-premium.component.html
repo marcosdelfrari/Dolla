@@ -1,0 +1,40 @@
+<div class="sidebar-popup">
+  <div class="close-button">
+<a (click)="closePopup()">
+    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101 90" width="auto" height="45" preserveAspectRatio="xMidYMid meet" style="content-visibility: visible;">
+      <defs>
+        <clipPath id="__lottie_element_139">
+          <rect width="101" height="90" x="0" y="0"></rect>
+        </clipPath>
+      </defs>
+      <g clip-path="url(#__lottie_element_139)">
+        <g transform="matrix(0.7081925868988037,-0.7060193419456482,0.7060193419456482,0.7081925868988037,4.929515838623047,71.020751953125)" opacity="1" style="display: block;">
+          <g opacity="1" transform="matrix(1,0,0,1,61.89899826049805,11.258999824523926)">
+            <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="4" d=" M-35.016998291015625,1.2580000162124634 C-11.746000289916992,-0.7870000004768372 11.675999641418457,-1.2589999437332153 35.016998291015625,-0.15399999916553497"></path>
+          </g>
+        </g>
+        <g transform="matrix(0.7081925868988037,0.7060193419456482,-0.7060193419456482,0.7081925868988037,32.670257568359375,-24.718608856201172)" opacity="1" style="display: block;">
+          <g opacity="1" transform="matrix(1,0,0,1,60.31700134277344,26.56999969482422)">
+            <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="4" d=" M-34.064998626708984,2.0959999561309814 C-11.572999954223633,-1.3179999589920044 11.369999885559082,-2.0959999561309814 34.064998626708984,-0.2150000035762787"></path>
+          </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-4.5,2)" opacity="1" style="display: block;">
+          <g opacity="1" transform="matrix(1,0,0,1,52.064998626708984,58.70399856567383)">
+            <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="4.000038360551817" d="M0 0"></path>
+          </g>
+        </g>
+      </g>
+    </svg></a>
+
+  </div>
+  <div class="options">
+    <ul>
+      <li *ngFor="let option of options">
+        <a (click)="closePopup()" [routerLink]="option.route">{{ option.label }}</a>
+      </li>
+      <li>
+        <a href="#">Contato</a>
+      </li>
+    </ul>
+  </div>
+</div>

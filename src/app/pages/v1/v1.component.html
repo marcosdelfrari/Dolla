@@ -1,0 +1,8 @@
+<div class="container">
+  <app-navbar></app-navbar>
+  <div class="content-container">
+    <app-sidebar *ngIf="showSidebar" class="app-sidebar"></app-sidebar>
+    <app-content class="app-content"></app-content>
+  </div>
+</div>
+<app-preloading *ngIf="showPreloading"></app-preloading>

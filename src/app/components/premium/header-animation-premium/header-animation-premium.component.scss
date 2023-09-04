@@ -1,0 +1,25 @@
+.image {
+  background-color: #06050F;
+  display: flex;
+  width: 100%;
+}
+
+.topmobile{
+  display: none;
+
+  @media (max-width: 560px) {
+    display: flex;
+  }
+}
+
+.topdesktop{
+  display: flex;
+
+  @media (max-width: 560px) {
+    display: none;
+  }
+}
+
+img {
+  width: 100%;
+}
