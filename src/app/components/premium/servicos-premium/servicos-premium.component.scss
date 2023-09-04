@@ -1,0 +1,65 @@
+.container-all {
+  padding: 30px 20px;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: "Aeonik-Medium";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Aeonik-Regular;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43px; /* 125% */
+}
+
+p {
+  color: #5f5f5f;
+  padding-top: 10px;
+}
+
+.servicos {
+  padding-top: 20px;
+}
+.box-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 5px;
+}
+
+.botao-gradient {
+  background: linear-gradient(#06050f, #06050f) padding-box,
+    linear-gradient(to right, #e8fe74, #fbe4ff, #cda5d5) border-box;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  position: relative;
+  display: inline-flex;
+  font-size: 1em;
+  font-family: Aeonik-Regular;
+  text-decoration: none;
+  color: #CDA5D5;
+  cursor: pointer;
+  flex-direction: column;
+  padding: 20px;
+}
+
+button {
+  background: #06050f;
+  display: flex;
+  outline: none;
+  border: none;
+  color: #CDA5D5;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
