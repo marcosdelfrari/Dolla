@@ -5,15 +5,8 @@
   </div>
 
   <div class="profile">
-    <div
-      class="avatar"
-      *ngFor="let photo of photos"
-      (click)="toggleCaption(photo)"
-    >
+    <div class="avatar" *ngFor="let photo of photos">
       <img [src]="photo.src" />
-      <div class="caption" [class.active]="photo.showCaption">
-        {{ photo.caption }}
-      </div>
     </div>
   </div>
 </div>
