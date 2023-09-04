@@ -1,0 +1,34 @@
+.position {
+  width: 100%;
+  height: 472px;
+  overflow: hidden;
+  position: relative;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  margin-bottom: -450px;
+}
+
+.running-text-container {
+  width: 165%;
+  height: 38px;
+  right: -140px;
+  top: 236px;
+  overflow: hidden;
+  position: absolute; /* Mude para posição absoluta */
+  background-color: #e8fe74;
+  transform: rotate(347deg);
+}
+
+.running-text {
+  white-space: nowrap;
+  animation: running-text-animation 20s linear infinite;
+  font-size: 32px;
+}
+
+@keyframes running-text-animation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

@@ -40,6 +40,8 @@ import { ContatoPremiumComponent } from './components/premium/contato-premium/co
 import { FooterPremiumComponent } from './components/premium/footer-premium/footer-premium.component';
 import { MenuPremiumComponent } from './components/premium/menu-premium/menu-premium.component';
 import { TagsPremiumComponent } from './components/premium/tags-premium/tags-premium.component';
+import { LineComponent } from './components/premium/animations/line/line.component';
+import { LineYellowComponent } from './components/premium/animations/line-yellow/line-yellow.component';
 
 
 @NgModule({
@@ -80,6 +82,8 @@ import { TagsPremiumComponent } from './components/premium/tags-premium/tags-pre
     FooterPremiumComponent,
     MenuPremiumComponent,
     TagsPremiumComponent,
+    LineComponent,
+    LineYellowComponent,
 
   ],
   imports: [
