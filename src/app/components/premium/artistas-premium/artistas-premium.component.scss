@@ -1,5 +1,6 @@
 .container-art {
   background-color: #e8fe74;
+  padding-bottom: 30px;
 }
 
 .title{
@@ -28,7 +29,7 @@ h1 {
 margin-top: 20px;
 display: inline-block; /* Exibe as divs de avatar em linha */
 margin-right: 10px; /* Espaçamento entre as divs de avatar (opcional) */
-animation: scrollProfile 20s linear infinite; /* Define uma animação de rolagem suave */
+animation: scrollProfile 30s linear infinite; /* Define uma animação de rolagem suave */
 
   img {
     border-radius: 60px;
@@ -41,6 +42,26 @@ animation: scrollProfile 20s linear infinite; /* Define uma animação de rolage
 
 }
 
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  line-height: 405px; /* Ajuste a altura para centralizar verticalmente o texto */
+  font-size: 18px;
+  opacity: 0; /* Inicialmente, a legenda está oculta */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.caption.show {
+  opacity: 1; /* Quando a classe .show é aplicada, a legenda é exibida */
+}
+
+
 .profile {
   width: 100%; /* Define a largura máxima do contêiner visível */
   overflow-x: auto; /* Habilita a barra de rolagem horizontal invisível */
@@ -52,7 +73,7 @@ animation: scrollProfile 20s linear infinite; /* Define uma animação de rolage
     transform: translateX(0); /* Começa na posição inicial (sem deslocamento) */
   }
   100% {
-    transform: translateX(-100%); /* Move 100% para a esquerda (uma vez) */
+    transform: translateX(-180%); /* Move 100% para a esquerda (uma vez) */
   }
 }
 

@@ -1,12 +1,19 @@
 <div class="container-art">
-  <div class="title"> <h2>Um time dedicado</h2>
-    <h1>para resultados incríveis</h1></div>
-  <div class="profile">
-    <div class="avatar"><img src="assets/imgs/marcos.png" ></div>
-
-    <div class="avatar"><img src="assets/imgs/flavia.jpeg" ></div>
-
-    <div class="avatar"><img src="assets/imgs/marcos.png" ></div>
+  <div class="title">
+    <h2>Um time dedicado</h2>
+    <h1>para resultados incríveis</h1>
   </div>
 
+  <div class="profile">
+    <div
+      class="avatar"
+      *ngFor="let photo of photos"
+      (click)="toggleCaption(photo)"
+    >
+      <img [src]="photo.src" />
+      <div class="caption" [class.active]="photo.showCaption">
+        {{ photo.caption }}
+      </div>
+    </div>
+  </div>
 </div>
