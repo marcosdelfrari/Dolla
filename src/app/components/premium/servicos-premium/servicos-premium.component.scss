@@ -1,5 +1,9 @@
 .container-all {
   padding: 30px 20px;
+
+  @media (min-width: 728px) {
+    padding: 9vw;
+  }
 }
 
 h2 {
@@ -25,8 +29,15 @@ p {
   padding-top: 10px;
 }
 
+.title {
+  padding-bottom: 20px;
+}
+
 .servicos {
-  padding-top: 20px;
+
+  @media (min-width: 728px) {
+    display: flex;
+  }
 }
 .box-btn {
   display: flex;
@@ -35,6 +46,10 @@ p {
   justify-content: center;
   align-items: center;
   margin: 20px 5px;
+
+  @media (min-width: 728px) {
+    width: 50%;
+  }
 }
 
 .botao-gradient {
@@ -47,10 +62,15 @@ p {
   font-size: 1em;
   font-family: Aeonik-Regular;
   text-decoration: none;
-  color: #CDA5D5;
+  color: #cda5d5;
   cursor: pointer;
   flex-direction: column;
   padding: 20px;
+
+  @media (min-width: 728px) {
+    width: 558px;
+    height: 228px;
+  }
 }
 
 button {
@@ -58,7 +78,7 @@ button {
   display: flex;
   outline: none;
   border: none;
-  color: #CDA5D5;
+  color: #cda5d5;
   align-items: center;
   gap: 10px;
   padding-top: 10px;

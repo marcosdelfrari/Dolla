@@ -1,6 +1,10 @@
 .container-art {
   background-color: #e8fe74;
   padding-bottom: 30px;
+
+  @media (min-width: 728px) {
+    padding: 9vw;
+  }
 }
 
 .title {
@@ -30,6 +34,10 @@ h1 {
   display: inline-grid; /* Exibe as divs de avatar em linha */
   margin-right: 10px; /* Espaçamento entre as divs de avatar (opcional) */
   animation: scrollProfile 30s linear; /* Define uma animação de rolagem suave */
+
+  @media (min-width: 728px) {
+    animation: none;
+  }
 
   img {
     border-radius: 60px;

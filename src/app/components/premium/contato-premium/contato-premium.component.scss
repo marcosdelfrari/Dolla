@@ -1,10 +1,25 @@
 .container-all {
-  background-color: #cda5d5;
   height: 570px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: #cda5d5;
+  @media (min-width: 728px) {
+   background-color: #06050f;
+  }
+
+}
+
+.section {
+  background-color: #cda5d5;
+  margin: 0;
+  padding: 0;
+  @media (min-width: 728px) {
+    width: 80%;
+    border-radius: 80px;
+    padding: 40px;
+  }
 }
 
 .title {

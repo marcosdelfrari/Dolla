@@ -20,6 +20,14 @@ h1 {
   background-color: #06050f;
   padding: 20px;
   padding-bottom: 40px !important;
+
+  @media (min-width: 728px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 160px 9vw;
+    padding-bottom: 160px !important;
+    justify-content: center;
+  }
 }
 
 .tags {
@@ -55,16 +63,43 @@ h1 {
   justify-items: center;
   flex-wrap: wrap;
   justify-content: center;
+
+  @media (min-width: 728px) {
+    width: 50%;
+    max-width: 580px;
+  }
+}
+
+.container-title {
+  @media (min-width: 728px) {
+    width: 50%;
+  }
 }
 
 .container-button {
   display: flex;
   justify-content: center;
+
+  @media (min-width: 728px) {
+    display: none;
+  }
+}
+
+.container-button-desktop {
+  display: none;
+@media (min-width: 728px) {
+  display: flex;
+}
 }
 
 p {
   color: #5f5f5f;
   padding-top: 10px;
+
+  @media (min-width: 728px) {
+    max-width: 580px;
+    color: #fff;
+  }
 }
 
 .box-btn {

@@ -16,6 +16,13 @@
   position: absolute; /* Mude para posição absoluta */
   background-color: #e8fe74;
   transform: rotate(347deg);
+  @media (min-width: 728px) {
+    transform: rotate(352deg);
+    height: 82px;
+    display: flex;
+    align-items: center;
+
+  }
 }
 
 .running-text {

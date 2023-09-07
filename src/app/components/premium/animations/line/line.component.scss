@@ -5,6 +5,9 @@
   position: relative;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 margin-bottom: -450px;
+@media (min-width: 728px) {
+  height: 720px;
+}
 }
 
 .running-text-container {
@@ -16,6 +19,14 @@ margin-bottom: -450px;
   position: absolute; /* Mude para posição absoluta */
   background-color: #fff;
   transform: rotate(45deg);
+
+@media (min-width: 728px) {
+  transform: rotate(14deg);
+  height: 82px;
+  display: flex;
+  align-items: center;
+
+}
 }
 
 .running-text {

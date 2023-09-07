@@ -1,10 +1,11 @@
 .image {
-  background-color: #06050F;
+  background-color: #06050f;
   display: flex;
   width: 100%;
+  justify-content: center;
 }
 
-.topmobile{
+.topmobile {
   display: none;
 
   @media (max-width: 560px) {
@@ -12,7 +13,7 @@
   }
 }
 
-.topdesktop{
+.topdesktop {
   display: flex;
 
   @media (max-width: 560px) {
@@ -22,9 +23,18 @@
 
 img {
   width: 100%;
+
+  @media (min-width: 728px) {
+    max-width: 530px;
+  }
 }
 
 .grego {
   z-index: 999;
   padding: 0 50px;
+  margin: 0;
+
+  @media (min-width: 728px) {
+    margin-top: -158px;
+  }
 }
