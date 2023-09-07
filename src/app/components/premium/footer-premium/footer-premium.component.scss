@@ -1,0 +1,26 @@
+.final {
+  background: var(
+    --Linear,
+    linear-gradient(279deg, #cda5d5 3.36%, #fbe4ff 48.72%, #e8fe74 99.06%)
+  );
+  padding: 0 20px;
+}
+
+.duas {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.primeira {
+  flex: 1;
+  color: #fff;
+  font-size: 14px;
+}
+
+.info {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #ffffff;
+  font-size: 14px;
+}

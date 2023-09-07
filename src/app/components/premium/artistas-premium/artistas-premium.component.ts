@@ -7,12 +7,25 @@ import { Component, ElementRef, Renderer2 } from '@angular/core';
 })
 export class ArtistasPremiumComponent {
   photos = [
-    { src: 'assets/imgs/larissa.jpg' },
-    { src: 'assets/imgs/flavia.jpeg' },
-    { src: 'assets/imgs/marcos.png' },
+    { src: 'assets/imgs/larissa.jpg', nome: 'Larissa Antunes', cargo: 'Custumer Success', showArtist: false },
+    { src: 'assets/imgs/flavia.jpeg', nome: 'Flavia Lanza', cargo: 'Copywriter', showArtist: false },
+    { src: 'assets/imgs/marcos.png', nome: 'Marcos Lucas', cargo: 'Tech Lead', showArtist: false },
   ];
 
-  toggleCaption(photo: any) {
-    photo.showCaption = !photo.showCaption;
+  toggleArtist(photo: any) {
+
+    if (photo.showArtist == true) {
+       photo.showArtist = !photo.showArtist;
+    } else {
+      photo.showArtist = !photo.showArtist;
+    }
+    // Oculta a div "artist" para todas as outras fotos
+    this.photos.forEach(p => {
+      if (p !== photo) {
+        p.showArtist = false;
+      }
+    });
+
+    console.log (photo.showArtist)
   }
 }

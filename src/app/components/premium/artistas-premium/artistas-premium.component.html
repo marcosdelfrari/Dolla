@@ -6,7 +6,11 @@
 
   <div class="profile">
     <div class="avatar" *ngFor="let photo of photos">
-      <img [src]="photo.src" />
+      <img [src]="photo.src" (click)="toggleArtist(photo)" />
+      <div class="artist"  (click)="toggleArtist(photo)" *ngIf="photo.showArtist">
+        <h3>{{ photo.nome }}</h3>
+        <p>{{ photo.cargo }}</p>
+      </div>
     </div>
   </div>
 </div>
