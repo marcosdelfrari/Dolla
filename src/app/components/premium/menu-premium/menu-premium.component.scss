@@ -5,10 +5,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #8241ff; /* Adapte a cor do fundo conforme necessário */
+  background-color: #e8fe74; /* Adapte a cor do fundo conforme necessário */
   display: flex;
   color: #000;
-  z-index: 999;
+  z-index: 9999999;
 }
 
 .sidebar-popup{
@@ -38,11 +38,10 @@
   overflow-y: auto;
   color: #000;
   font-family: Aeonik-Regular;
-  font-size: 35px;
+  font-size: 43px;
   font-style: normal;
-  font-weight: 900;
-  line-height: 40px; /* 139.474% */
-  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 43px;
   margin-top: -50px;
 }
 
